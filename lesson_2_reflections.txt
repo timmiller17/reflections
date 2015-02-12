@@ -1,21 +1,37 @@
 What happens when you initialize a repository?  Why do you need to do it?
 
-	When you initialize a repository, a .git folder is created and the master branch is also created.  No commits are created initially (you couldn't create a commit message if this just happened on git init).
-	You need to initialize a repository as a first step to putting a project under git's version control.
+	When you initialize a repository, a .git folder is created and the master
+	 branch is also created.  No commits are created initially (you couldn't
+	  create a commit message if this just happened on git init).
+	You need to initialize a repository as a first step to putting a project 
+	under git's version control.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
 
-	The staging area is a stopover point between the working directory and the respository.  It's an area you can assemble the collection of files you want to add from the working directory to the repository (to place them under version control).  It is valuable to help you visualize what files you are about to add to the repository.
+	The staging area is a stopover point between the working directory and the 
+	respository.  It's an area you can assemble the collection of files you want 
+	to add from the working directory to the repository (to place them under 
+	version control).  It is valuable to help you visualize what files you are 
+	about to add to the repository.
 
-How can you use the staging area to make sure you have one commit per logical change?
+How can you use the staging area to make sure you have one commit per logical 
+change?
 
 	<git diff> command will show delta between working directory and staging area
-	<git diff --staged> command will show delta between staging area and most recent commit
+	<git diff --staged> command will show delta between staging area and most 
+	recent commit
 
-	<git status> shows the files that have changed and aren't in the staging area as well as the files that are staged and ready to be committed.
+	<git status> shows the files that have changed and aren't in the staging 
+	area as well as the files that are staged and ready to be committed.
 
-	I can use these commands to see what changes I've made and doublecheck that these are the group of changes I want to be present in my commit.
+	I can use these commands to see what changes I've made and doublecheck that 
+	these are the group of changes I want to be present in my commit.
 
-What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
 
-	Branches are a way to let you "branch" off and try an experimental feature or a rewrite (optimization?) of an existing feature.  They could also be used to test an alternate version of your code.  They let you keep track of multiple versions without fear of losing your master branch.
+	Branches are a way to let you "branch" off and try an experimental feature 
+	or a rewrite (optimization?) of an existing feature.  They could also be 
+	used to test an alternate version of your code.  They let you keep track of 
+	multiple versions without fear of losing your master branch.
