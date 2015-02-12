@@ -15,3 +15,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 	<git status> shows the files that have changed and aren't in the staging area as well as the files that are staged and ready to be committed.
 
 	I can use these commands to see what changes I've made and doublecheck that these are the group of changes I want to be present in my commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Branches are a way to let you "branch" off and try an experimental feature or a rewrite (optimization?) of an existing feature.  They could also be used to test an alternate version of your code.  They let you keep track of multiple versions without fear of losing your master branch.
