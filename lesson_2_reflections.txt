@@ -35,3 +35,10 @@ organized? How would branches help?
 	or a rewrite (optimization?) of an existing feature.  They could also be 
 	used to test an alternate version of your code.  They let you keep track of 
 	multiple versions without fear of losing your master branch.
+
+How do the diagrams help you visualize the branch structure?
+
+	Diagrams show where branches diverged, which commits are parents of which 
+	other commits, and which commits are currently unreachable.  Having a 
+	diagram helps keep the logic straight in your head.
+	
