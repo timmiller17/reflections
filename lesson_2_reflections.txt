@@ -42,3 +42,16 @@ How do the diagrams help you visualize the branch structure?
 	other commits, and which commits are currently unreachable.  Having a 
 	diagram helps keep the logic straight in your head.
 	
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+	Merging two branches together results (if successful) in one branch (with 
+	the same branch name as the one that was checked out when the merge was 
+	performed).  It has all of the commits of two branches.  Commits that 
+	occured in the separate branches (from after the common parent when they 
+	split) are listed in git log output by order of time stamp.  This may mean 
+	that two consecutive commits in the log are not a parent/child pair.  You 
+	can use <git show _commit-id_> to show the diff between a commit and its 
+	parent.  The diagram <git log --graph --oneline> is a handy way to visualize 
+	what has occurred.
+	
