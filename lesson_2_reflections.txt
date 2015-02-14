@@ -54,4 +54,15 @@ the diagram the way we do?
 	can use <git show _commit-id_> to show the diff between a commit and its 
 	parent.  The diagram <git log --graph --oneline> is a handy way to visualize 
 	what has occurred.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?	
 	
+	Automatic merges save time and are generally ok to do  (as far as I can do) 
+	because the algorithm is pretty cautious.  I suppose sometimes something 
+	goes wrong and then you probably wish it hadn't automatically merged.  A 
+	manual merge will be a bit more time-consuming (especially for many changes) 
+	but you will have full knowledge of what is going on as it happens.  Git's 
+	version seems to give the best of both worlds (assuming it all works) 
+	because the easy stuff is taken care of and you only have to work through 
+	the hard stuff that is the most critical to be on top of anyway.
