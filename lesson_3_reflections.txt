@@ -15,3 +15,21 @@ automatically stay up-to-date with your remote repository?
 	their code show up all willy-nilly in yours.  You want to merge at the 
 	appropriate times.
 
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+
+	Forks are copies of a repository on GitHub to a new repository on GitHub. 
+	They are useful for when you want to change something but keep the original 
+	intact (or possibly if you want to change something you don't even have 
+	permission to change - like someone else's code).
+
+	Clones are created on your local computer from either a remote repository or 
+	a different local repository. They are an entire project.
+
+	Branches can be created within a repository.  You can push or pull a branch 
+	between a local and remote repository.  They are used when multiple people 
+	are working on the same repository or if you want to try an experimental 
+	change.  It is probably common to have a main branch and all development is 
+	done in a dev branch where it is acceptable to break things.  Then when the 
+	dev branch is deemed ready, it can be merged back into the main branch.
+
