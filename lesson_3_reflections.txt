@@ -5,3 +5,13 @@ When would you want to use a remote repository rather than keeping all your work
 	and keep them all in sync with my latest efforts (upstairs, downstairs, laptop on train, etc.).  Three,
 	it allows you to collaborate with others which is critical for most serious personal projects and definitely for 
 	professional projects.
+
+Why might you want to always pull changes manually rather than having Git 
+automatically stay up-to-date with your remote repository?
+
+	Since we are talking about code here, you have to pull in complete logical 
+	sets or else you will probably break the code.  Also, obviously, if multiple 
+	people are working with the same remote then you don't want to be having 
+	their code show up all willy-nilly in yours.  You want to merge at the 
+	appropriate times.
+
