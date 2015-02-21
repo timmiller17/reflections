@@ -1,0 +1,7 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+	There are a few obvious reasons.  One, it provides a second location for project safety.  It'd be horrible
+	if you lost your local storage and your code.  Two, for me personally, it allows me to work on different computers
+	and keep them all in sync with my latest efforts (upstairs, downstairs, laptop on train, etc.).  Three,
+	it allows you to collaborate with others which is critical for most serious personal projects and definitely for 
+	professional projects.
