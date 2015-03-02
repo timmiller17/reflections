@@ -33,3 +33,13 @@ one instead of another?
 	done in a dev branch where it is acceptable to break things.  Then when the 
 	dev branch is deemed ready, it can be merged back into the main branch.
 
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+	This allows you to work offline to do the merge (for example, if you are on 
+	a plane).  origin/master is the copy of the remote branch.  master is your 
+	local copy.  You can merge the two and then push back to the remote when you
+	are ready.  The way to get a local copy without doing a pull is to do a <git 
+	fetch origin>.  Then you can do the git merge locally.  A pull does the git 
+	fetch and merge in a single step.
+
