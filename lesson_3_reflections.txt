@@ -43,3 +43,12 @@ stored locally?
 	fetch origin>.  Then you can do the git merge locally.  A pull does the git 
 	fetch and merge in a single step.
 
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+	Without using git or github, you could collaborate by emailing each other 
+	files.  I'm not sure what would be easier about this.  Perhaps it would 
+	remove some small amount of overhead.  However, it would be very hard to 
+	track changes, it would be very hard to merge simultaneous changes, etc.
+
+	
