@@ -51,3 +51,5 @@ what would be harder?
 	remove some small amount of overhead.  However, it would be very hard to 
 	track changes, it would be very hard to merge simultaneous changes, etc.
 
+Insert a change just to test credential helper setup.
+
